@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="xtm.flutter.plugin.xtm_lpr">
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <application>
+      <activity
+          android:name="xtm.flutter.plugin.xtm_lpr.NativeActivity"
+          android:theme="@style/Theme.AppCompat.NoActionBar"
+          android:exported="true">
+      </activity>
+  </application>
+</manifest>
